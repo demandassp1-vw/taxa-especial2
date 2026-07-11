@@ -508,6 +508,7 @@
     function clearForm() {
       if (!confirm('Deseja limpar todos os campos?')) return;
       document.getElementById('taxaForm').reset();
+      document.getElementById('pasteData').value = '';
     }
 
     function saveForm() {
